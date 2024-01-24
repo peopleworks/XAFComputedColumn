@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <CheckEolTargetFramework>false</CheckEolTargetFramework>
+    <Deterministic>false</Deterministic>
+    <AssemblyVersion>1.0.*</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Configurations>Debug;Release;EasyTest</Configurations>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Model.DesignedDiffs.xafml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Model.DesignedDiffs.xafml" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="DevExpress.ExpressApp" Version="23.2.4-pre-24010" />
+    <PackageReference Include="DevExpress.ExpressApp.CloneObject.Xpo" Version="23.2.4-pre-24010" />
+    <PackageReference Include="DevExpress.ExpressApp.CodeAnalysis" Version="23.2.4-pre-24010" />
+    <PackageReference Include="DevExpress.ExpressApp.ConditionalAppearance" Version="23.2.4-pre-24010" />
+    <PackageReference Include="DevExpress.ExpressApp.Dashboards" Version="23.2.4-pre-24010" />
+    <PackageReference Include="DevExpress.ExpressApp.Objects" Version="23.2.4-pre-24010" />
+    <PackageReference Include="DevExpress.ExpressApp.ReportsV2" Version="23.2.4-pre-24010" />
+    <PackageReference Include="DevExpress.ExpressApp.Security.Xpo" Version="23.2.4-pre-24010" />
+    <PackageReference Include="DevExpress.ExpressApp.Validation" Version="23.2.4-pre-24010" />
+    <PackageReference Include="DevExpress.ExpressApp.Xpo" Version="23.2.4-pre-24010" />
+    <PackageReference Include="DevExpress.Persistent.Base" Version="23.2.4-pre-24010" />
+    <PackageReference Include="DevExpress.Persistent.BaseImpl.Xpo" Version="23.2.4-pre-24010" />
+  </ItemGroup>
+</Project>
